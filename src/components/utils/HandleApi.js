@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // this base url of node js project which deployed on vercel.com
-const base_url = "https://full-stack-todo-app-be.vercel.app/"
+const base_url = "https://full-stack-todo-app-be.vercel.app"
 
 const getAllTodos = (setTodos) => {
     axios
