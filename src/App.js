@@ -3,7 +3,6 @@ import React, {useEffect, useState} from "react";
 import {getAllTodos, addTodo, deleteTodo, updateTodo, updateProgress} from "./components/utils/HandleApi";
 import Backdrop from '@mui/material/Backdrop';
 import CircularProgress from '@mui/material/CircularProgress';
-import Button from '@mui/material/Button';
 
 const App = () => {
 
